@@ -1,0 +1,16 @@
+{
+  "name": "git-hero-reflog",
+  "version": "1.0.0",
+  "description": "Git reflog demonstration for NG Baguette Conf 2026",
+  "main": "notes.js",
+  "scripts": {
+    "start": "node notes.js"
+  },
+  "keywords": ["git", "reflog", "demo"],
+  "author": "Yann-Thomas Lemoigne",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {}
+}

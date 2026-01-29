@@ -1,0 +1,17 @@
+{
+  "name": "git-hero-bisect",
+  "version": "1.0.0",
+  "description": "Git bisect demonstration for NG Baguette Conf 2026",
+  "main": "number-guesser.js",
+  "scripts": {
+    "start": "node number-guesser.js",
+    "test": "node number-guesser.test.js"
+  },
+  "keywords": ["git", "bisect", "demo", "ng-baguette-conf"],
+  "author": "Yann-Thomas Lemoigne",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {}
+}

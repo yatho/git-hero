@@ -1,0 +1,9 @@
+{
+    "name":"git-hero-rebase-interactive",
+    "version":"1.0.0",
+    "main":"todo.js",
+    "license":"MIT",
+    "scripts":{
+        "start":"node todo.js"
+    }
+}

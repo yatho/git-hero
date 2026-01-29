@@ -1,0 +1,16 @@
+{
+  "name": "git-hero-merge",
+  "version": "1.0.0",
+  "description": "Git merge and conflict resolution demonstration for NG Baguette Conf 2026",
+  "main": "cart.js",
+  "scripts": {
+    "start": "node cart.js"
+  },
+  "keywords": ["git", "merge", "conflict", "demo", "ng-baguette-conf"],
+  "author": "Yann-Thomas Lemoigne",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {}
+}
