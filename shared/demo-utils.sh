@@ -10,7 +10,7 @@
 # =====================
 
 # Typewriter effect delay (seconds between characters)
-DELAY_BETWEEN_CHARS=0.09
+DELAY_BETWEEN_CHARS=0.07
 
 # Color codes
 COLOR_RESET='\033[0m'
