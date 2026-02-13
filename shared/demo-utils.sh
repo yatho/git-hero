@@ -2,7 +2,6 @@
 #
 # Git Hero - Shared Demo Utilities
 # Common functions for interactive Git demonstrations
-# NG Baguette Conf 2026
 #
 
 # =====================
@@ -10,7 +9,7 @@
 # =====================
 
 # Typewriter effect delay (seconds between characters)
-DELAY_BETWEEN_CHARS=0.07
+DELAY_BETWEEN_CHARS=0.05
 
 # Color codes
 COLOR_RESET='\033[0m'
@@ -55,6 +54,9 @@ run() {
     local cmd="$1"
     local should_pause="${2:-true}"
     typewriter "$cmd"
+    if [[ "$should_pause" != false ]]; then
+        pause
+    fi
     eval "$cmd"
     if [[ "$should_pause" != false ]]; then
         pause
